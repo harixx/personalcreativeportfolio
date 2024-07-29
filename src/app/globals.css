@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.background-gradient {
+  background: radial-gradient(
+    circle at top center,
+    hsla(6, 93%, 46%, 0.812) 0%,
+    hsla(222, 0%, 0%, 0) 50%,
+    hsla(222, 0%, 0%, 0) 100%
+  );
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
